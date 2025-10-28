@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar GitHub - TI 2025 C</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+
+        .intro {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+        }
+
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        .section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .student-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .student-list li {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 3px solid #764ba2;
+            transition: transform 0.2s;
+        }
+
+        .student-list li:hover {
+            transform: translateX(5px);
+            background: #e9ecef;
+        }
+
+        .git-commands {
+            background: #2d3748;
+            color: #48bb78;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+        }
+
+        .git-commands code {
+            display: block;
+            margin: 5px 0;
+            color: #48bb78;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Selamat Datang</h1>
+        <div class="subtitle">TI 2025 - Kelas C</div>
+
+        <div class="intro">
+            <h2>📚 Tentang Repository Ini</h2>
+            <p>
+                Repository ini dibuat untuk pembelajaran GitHub bagi mahasiswa Teknik Informatika.
+                Kalian akan belajar dasar-dasar version control, collaboration, dan workflow development
+                yang digunakan di industri software.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>🎯 Tujuan Pembelajaran</h3>
+            <ul style="padding-left: 20px; line-height: 2;">
+                <li>Memahami konsep Git dan GitHub</li>
+                <li>Membuat repository dan commit</li>
+                <li>Bekerja dengan branch dan merge</li>
+                <li>Berkolaborasi dengan tim menggunakan pull request</li>
+                <li>Mengelola conflict dan resolve issues</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>👨‍🎓 Daftar Mahasiswa</h3>
+            <ul class="student-list">
+                <li><strong>Mahasiswa 1</strong> - Silakan tambahkan nama Anda di sini!</li>
+                <!-- Tambahkan nama Anda di bawah ini -->
+                
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>💻 Perintah Git Dasar</h3>
+            <div class="git-commands">
+                <code>$ git clone [url-repository]</code>
+                <code>$ git add .</code>
+                <code>$ git commit -m "pesan commit"</code>
+                <code>$ git push origin main</code>
+                <code>$ git pull origin main</code>
+                <code>$ git branch [nama-branch]</code>
+                <code>$ git checkout [nama-branch]</code>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>📝 Tugas Untuk Mahasiswa</h3>
+            <ol style="padding-left: 20px; line-height: 2;">
+                <li>Clone repository ini ke komputer Anda</li>
+                <li>Buat branch baru dengan nama Anda</li>
+                <li>Tambahkan nama Anda ke daftar mahasiswa</li>
+                <li>Commit perubahan dengan pesan yang jelas</li>
+                <li>Push branch Anda ke GitHub</li>
+                <li>Buat Pull Request untuk merge ke branch main</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h3>🏆 Skills yang Akan Dikuasai</h3>
+            <div>
+                <span class="badge">Git</span>
+                <span class="badge">GitHub</span>
+                <span class="badge">Version Control</span>
+                <span class="badge">Collaboration</span>
+                <span class="badge">Pull Request</span>
+                <span class="badge">Code Review</span>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Teknologi Informasi 2025 - Kelas C</strong></p>
+            <p>Happy Learning! 🚀</p>
+        </footer>
+    </div>
+</body>
+</html>
+
